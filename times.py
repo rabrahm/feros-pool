@@ -98,6 +98,17 @@ for proj in projects:
 	print(proj,props[proj]*(totused+available) - used[proj])
 
 
+lines = ['# feros-pool\n', 'Computes used and available time for different observing projects\n']
+lines.append('projected time left computed on '+str(now)+':\n')
+
+for proj in projects:
+	lines.append(' '+proj+': '+str(props[proj]*(totused+available) - used[proj])+' h \n')
+
+ff = open('README.md','w')
+for line in lines:
+	ff.write(line)
+ff.close()
+
 
 
 
