@@ -1,7 +1,7 @@
 # feros-pool
 Computes used and available time for different observing projects
 
-projected time left computed on 2021-01-15 13:56:35.432963:
+projected time left computed on 2021-01-15 14:01:06.258401:
 
     chaname: 7.955979192660877 h 
 
