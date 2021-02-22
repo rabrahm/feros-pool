@@ -15,7 +15,7 @@ lco = Observer.at_site("lco")
 
 ##'technical':['60.A-9700']
 projects = ['chaname','brahm','moyano','zakhozhay','vines']
-ids = {'chaname':['0106.A-9002'],'brahm':['0104.A-9007'],'zakhozhay':['0104.A-9003'],'moyano':['0106.A-9004'],'vines':['0106.A-9003']}
+ids = {'chaname':['0106.A-9002'],'brahm':['0104.A-9007','0106.A-9014'],'zakhozhay':['0104.A-9003'],'moyano':['0106.A-9004'],'vines':['0106.A-9003']}
 
 nights = {'moyano':['2020-12-28','2020-12-29'],\
 		  'chaname':['2020-12-21','2020-12-22','2020-12-23','2020-12-24'],\
